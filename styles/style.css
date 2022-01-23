@@ -43,16 +43,19 @@ body{
 }
 /* brands */
 .brands{
-    
+    align-items: center;
+    justify-content: space-between;
     margin: 0 12em;
-    padding-left: 6em;
-    
-    
+    padding-left: 6em; 
 }
 .brands img{
     margin: 10px 20px;
 }
-
+/* collection */
+.collection h2{
+    display: flex;
+    justify-content: center;
+}
 
 
 
