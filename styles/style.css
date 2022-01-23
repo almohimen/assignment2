@@ -1,14 +1,14 @@
 body{
-    font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    
     /* background-color: aqua; */
     padding-left: 120px;
     padding-right:165px ;
 }
 /* intro */
-.intro{
+.container{
     display: flex;
+    justify-content: space-between;
 }
 .intro h1{
     font-style: normal;
@@ -23,14 +23,16 @@ body{
     left: 120px;
     top: 285px;
 } 
-.intro button{
+.intro a{
     width: 196px;
     height: 44px;
+    padding: 10px 24px;
     background: #E02C6D;
     border-radius: 41px;
     color: aliceblue;
     font-size: 16px; 
     line-height: 24px;
+    text-decoration: none;
 }
 .intro img{
     position: absolute;
@@ -41,10 +43,14 @@ body{
 }
 /* brands */
 .brands{
-    display: grid;
-    grid-template-columns: (7,1fr);
+    
+    margin: 0 12em;
+    padding-left: 6em;
     
     
+}
+.brands img{
+    margin: 10px 20px;
 }
 
 
