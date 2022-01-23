@@ -3,9 +3,9 @@
 footer{
     text-align: center;
     background-color: #0A0826;
-    padding-top: 50px; 
+    padding: 50px 589px; 
     position: absolute; 
-    left: 589px;
+    /* left: 589px; */
     top: 3000px;
 }
 footer h2{
