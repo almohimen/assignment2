@@ -2,13 +2,13 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: aqua;
+    /* background-color: aqua; */
+    padding-left: 120px;
+    padding-right:165px ;
 }
 /* intro */
 .intro{
     display: flex;
-    
-
 }
 .intro h1{
     font-style: normal;
@@ -33,50 +33,22 @@ body{
     line-height: 24px;
 }
 .intro img{
-    position: flex;
+    position: absolute;
     width: 440px;
     height: 414px;
     left: 835px;
     top: 211px;
 }
+/* brands */
+.brands img{
+    display: flex;
+    
+    
+}
+
+
+
+
+
+
  
-/* footer  */
-
-footer{
-    background-color: #0A0826;
-    padding: 50px;
-
-}
-footer h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-footer p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-}
-footer .contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-footer a{
-    margin-right: 16px;
-    text-decoration: none;
-    color: #FFFFFF;
-    /* background-color:  ; */
-    /* padding: px; */
-    border-radius: 41px;
-    /* font-size: px; */
-    border: 8px solid#22203b8e;
-    
-
-}
