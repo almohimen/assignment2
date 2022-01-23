@@ -40,8 +40,9 @@ body{
     top: 211px;
 }
 /* brands */
-.brands img{
-    display: flex;
+.brands{
+    display: grid;
+    grid-template-columns: (7,1fr);
     
     
 }
