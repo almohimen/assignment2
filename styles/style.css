@@ -2,10 +2,12 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: aqua;
 }
 /* intro */
 .intro{
     display: flex;
+    
 
 }
 .intro h1{
@@ -15,8 +17,11 @@ body{
     line-height: 70px;
 }
 .intro article{
+    position: flex;
     width: 582px;
     height: 270px;
+    left: 120px;
+    top: 285px;
 } 
 .intro button{
     width: 196px;
@@ -28,15 +33,19 @@ body{
     line-height: 24px;
 }
 .intro img{
+    position: flex;
     width: 440px;
     height: 414px;
+    left: 835px;
+    top: 211px;
 }
  
 /* footer  */
 
 footer{
     background-color: #0A0826;
-    padding: 50px 589px;
+    padding: 50px;
+
 }
 footer h2{
     display: flex;
