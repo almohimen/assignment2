@@ -1,7 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    
-    /* background-color: aqua; */
     padding-left: 120px;
     padding-right:165px ;
 }
@@ -106,23 +105,7 @@ body{
 .card-info{
     color: #787885;
 }
-.more-button{
-    background-color: white;
-    float: right;
-    margin-top: 20px;
-}
-.more-button button{
-    color:  #E02C6D;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 17px;
-}
-button .fas.fa-arrow-right{
-    margin-left: 10px;
-    font-size: 13px;
-}
+
 
 
 

@@ -1,15 +1,14 @@
-/* footer  */
+/* footer   */
 
- /* footer{
+  footer{
+    text-align: center;
     background-color: #0A0826;
-    padding: 50px; 
+    padding-top: 50px; 
     position: absolute; 
-    /* width: 262px;
+    width: 262px;
     height: 139px; 
     left: 589px;
     top: 3110px;
-
-
 }
 footer h2{
     display: flex;
@@ -30,6 +29,7 @@ footer .contact{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0A0826;
     
 
 }
@@ -37,8 +37,8 @@ footer a{
     margin-right: 16px;
     text-decoration: none;
     color: #FFFFFF;
-    border-radius: 41px;
-    border: 8px solid#22203b8e;
+    border-radius: 35px;
+    border: 6px solid#22203b8e;
     
 
-}  */
+} 
