@@ -1,14 +1,12 @@
 /* footer   */
 
-  footer{
+footer{
     text-align: center;
     background-color: #0A0826;
     padding-top: 50px; 
     position: absolute; 
-    width: 262px;
-    height: 139px; 
     left: 589px;
-    top: 3110px;
+    top: 3000px;
 }
 footer h2{
     display: flex;
@@ -38,7 +36,7 @@ footer a{
     text-decoration: none;
     color: #FFFFFF;
     border-radius: 35px;
-    border: 6px solid#22203b8e;
+    border: 6px solid#27254260;
     
 
 } 
