@@ -2,6 +2,8 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 95px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 

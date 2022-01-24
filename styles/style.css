@@ -3,11 +3,13 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    padding-left: 120px;
-    padding-right:165px ;
+    /* padding: 120px; */
+    
+    
 }
 /* intro */
 .container{
+    padding: 120px ;
     display: flex;
     justify-content: space-between;
 }
@@ -108,6 +110,11 @@ body{
 .card-info{
     color: #787885;
 }
+
+.more{
+    text-decoration: none;
+    color: #E02C6D;
+}
 /* feature
  */
 
@@ -115,15 +122,15 @@ body{
     position: absolute;
     width: 404px;
     height: 270px;
-    left: 165px;
-    top: 2530px;
+    left: 19%;
+    top: 2730px;
  }
  .feature article{
     position: absolute;
     width: 610px;
     height: 60px;
-    left: 665px;
-    top: 2550px;
+    left: 50%;
+    top: 2750px;
  }
 .feature a{
         width: 196px;

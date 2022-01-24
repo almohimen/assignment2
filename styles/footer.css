@@ -3,10 +3,10 @@
 footer{
     text-align: center;
     background-color: #0A0826;
-    padding: 50px 589px; 
+    padding: 50px 50%; 
     position: absolute; 
     /* left: 589px; */
-    top: 3000px;
+    top: 3300px;
 }
 footer h2{
     display: flex;
