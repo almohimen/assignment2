@@ -119,18 +119,20 @@ body{
  */
 
  .feature-img{
-    position: absolute;
+    position: relative;
     width: 404px;
     height: 270px;
     left: 19%;
-    top: 2730px;
+    top: 650px;
  }
  .feature article{
-    position: absolute;
+    position: relative;
     width: 610px;
     height: 60px;
     left: 50%;
-    top: 2750px;
+    top: 410px;
+    color: #18191F;
+    text-decoration: none;
  }
 .feature a{
         width: 196px;
@@ -143,6 +145,12 @@ body{
         line-height: 24px;
         text-decoration: none;
 }
+.collections p>a{
+    text-decoration: none;
+    color: #E02C6D;
+    position: relative;
+    left: 1000px;
+} 
 
 
 
