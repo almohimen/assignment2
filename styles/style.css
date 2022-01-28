@@ -152,6 +152,66 @@ body{
     left: 1000px;
 } 
 
+@media only screen and (max-width: 470px){
+    .nav-bar{
+        height: 25px;
+    }
+    .checkbtn{
+        display: block;
+        margin: 15px 35px;
+    }
+    .title{
+        position: absolute;
+        top: 0;
+        left: 60px;
+        font-size: 18px;
+    }
+    ol{
+        position: fixed;
+         width: 45%;
+         top: 45px;
+         left: -100%;
+         transition: all 0.5s;
+         background-color: burlywood;
+         z-index: 1;
+    }
+    nav ol a{
+        display: block;
+    }
+    #check:checked ~ ol{
+        left: -60px;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        top: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro article{
+        width: 90%;
+    }
+    .intro{
+        padding: 5px;
+
+    }
+    .intro h1{
+        font-size: 30px;
+        margin: 5px 0;
+
+    }
+    .intro-img{
+        width: 50%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .brands{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+}
 
 
 
